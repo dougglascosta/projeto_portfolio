@@ -1,0 +1,119 @@
+@import url(style/responsividade.css);
+:root {
+  --font-primary: "Do Hyeon", sans-serif;
+}
+
+/*Navigation Bar*/
+
+body {
+  background-image: url("/images/BackgroundCodigos.png");
+  background-repeat: no-repeat;
+  background-color: #2b2b2b;
+  font-family: var(--font-primary);
+  font-weight: 400;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+li {
+  display: inline-flex;
+  margin: 15px;
+}
+a {
+  text-decoration: none;
+  color: #57fcff;
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.principal {
+  width: 1246px;
+  height: 552px;
+}
+.conteudoPrincipal {
+  display: flex;
+  justify-content: space-between;
+}
+
+#texto-principal {
+  width: 50%;
+  padding: 20px 200px 10px 60px;
+  font-size: 1.7em;
+}
+span {
+  color: #57fcff;
+}
+#imagem-principal {
+  border: 3px solid #57fcff;
+  border-radius: 30px;
+  width: 50%;
+}
+.imagem-principal-bordas {
+  border-radius: 30px; /* Define uma borda arredondada */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.botoes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #57fcff;
+  padding: 0 60px;
+  margin: 0;
+  margin-top: 15px;
+  border-radius: 14px;
+  width: 100px;
+  height: 60px;
+}
+.botoes img {
+  width: 32px;
+  height: 32px;
+}
+main {
+  margin-bottom: 30px;
+}
+
+/*Projetos*/
+.projetos {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 60px;
+  gap: 20px;
+}
+.projetos img {
+  width: 370.85px;
+  height: 243.43px;
+  border-radius: 16px;
+}
+
+.projetos-texto {
+  width: 50%;
+  margin: 40px 60px;
+}
+/*Footer*/
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+  height: 20px;
+}
+footer img {
+  width: 100px;
+}

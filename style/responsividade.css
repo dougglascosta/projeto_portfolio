@@ -1,0 +1,48 @@
+@media screen and (max-width: 800px) {
+  header,
+  main,
+  footer {
+    width: 100%;
+  }
+  .conteudoPrincipal {
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  #imagem-principal {
+    order: 1;
+  }
+  #texto-principal {
+    order: 2;
+  }
+  .rodape {
+    order: 3;
+  }
+  li {
+    padding: 0;
+    margin: 5;
+  }
+  a {
+    margin: 0;
+    font-size: 16px;
+  }
+  ul {
+    width: 85%;
+  }
+  .projetos {
+    flex-direction: column;
+  }
+  main {
+    overflow-y: scroll;
+  }
+  #texto-principal {
+    padding: 10px;
+    margin: 10px;
+  }
+  img {
+    margin: 0;
+  }
+  .projetos-texto h1,
+  p {
+    margin-left: 20px;
+  }
+}
